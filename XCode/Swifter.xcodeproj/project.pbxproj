@@ -24,6 +24,12 @@
 		043660E921FED51B00497989 /* SwifterTestsWebSocketSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4785E81C71D15600A9FE73 /* SwifterTestsWebSocketSession.swift */; };
 		043660EA21FED51E00497989 /* IOSafetyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E7F31D68BB2600491CD1 /* IOSafetyTests.swift */; };
 		043660EB21FED52000497989 /* MimeTypesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D4511204E9988000A0726 /* MimeTypesTests.swift */; };
+		047F1EFA226AB16000909B95 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B912F49220507D00062C360 /* XCTestManifests.swift */; };
+		047F1EFB226AB16000909B95 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B912F49220507D00062C360 /* XCTestManifests.swift */; };
+		047F1EFC226AB16100909B95 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B912F49220507D00062C360 /* XCTestManifests.swift */; };
+		047F1EFD226AB17F00909B95 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B912F4B220507DB0062C360 /* LinuxMain.swift */; };
+		047F1EFE226AB18000909B95 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B912F4B220507DB0062C360 /* LinuxMain.swift */; };
+		047F1EFF226AB18000909B95 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B912F4B220507DB0062C360 /* LinuxMain.swift */; };
 		0858E7F81D68BC2600491CD1 /* PingServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E7F61D68BC2600491CD1 /* PingServer.swift */; };
 		2659FC1A1DADC077003F3930 /* String+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C377E161D964B6A009C6148 /* String+File.swift */; };
 		269B47881D3AAAE20042D137 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C76B6EF1D2C44F30030FC98 /* HttpResponse.swift */; };
@@ -54,9 +60,6 @@
 		7AE8940D1C05151100A29F63 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE8940C1C05151100A29F63 /* Launch Screen.storyboard */; };
 		7B11AD4B21C9A8A6002F8820 /* SwifterTestsHttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB8C5F1D97B8CC008B9712 /* SwifterTestsHttpRouter.swift */; };
 		7B74CFA82163C40F001BE07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAB80C1BE2A1D400C8A977 /* AppDelegate.swift */; };
-		7B912F4A220507D00062C360 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B912F49220507D00062C360 /* XCTestManifests.swift */; };
-		7B912F4C220507DB0062C360 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B912F4B220507DB0062C360 /* LinuxMain.swift */; };
-		7B912F4D2205083D0062C360 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B912F4B220507DB0062C360 /* LinuxMain.swift */; };
 		7C377E181D964B96009C6148 /* String+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C377E161D964B6A009C6148 /* String+File.swift */; };
 		7C377E191D964B9F009C6148 /* String+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C377E161D964B6A009C6148 /* String+File.swift */; };
 		7C458EFC1D4A7526006A68E5 /* Socket+Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C458EFB1D4A7526006A68E5 /* Socket+Server.swift */; };
@@ -643,11 +646,11 @@
 					};
 					7C839B6D19422CFF003A6950 = {
 						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					7CA4813A19A2EA8D0030B30D = {
 						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					7CCD875B1C66099B0068099B = {
 						CreatedOnToolsVersion = 7.2;
@@ -741,11 +744,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047F1EFE226AB18000909B95 /* LinuxMain.swift in Sources */,
 				043660CF21FED35800497989 /* PingServer.swift in Sources */,
 				043660D121FED35D00497989 /* SwifterTestsWebSocketSession.swift in Sources */,
 				043660D221FED36800497989 /* IOSafetyTests.swift in Sources */,
 				043660D021FED35B00497989 /* SwifterTestsStringExtensions.swift in Sources */,
 				043660CD21FED35200497989 /* SwifterTestsHttpRouter.swift in Sources */,
+				047F1EFB226AB16000909B95 /* XCTestManifests.swift in Sources */,
 				043660CE21FED35500497989 /* SwifterTestsHttpParser.swift in Sources */,
 				043660D521FED36C00497989 /* MimeTypesTests.swift in Sources */,
 			);
@@ -755,11 +760,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047F1EFF226AB18000909B95 /* LinuxMain.swift in Sources */,
 				043660E721FED51600497989 /* PingServer.swift in Sources */,
 				043660E921FED51B00497989 /* SwifterTestsWebSocketSession.swift in Sources */,
 				043660EA21FED51E00497989 /* IOSafetyTests.swift in Sources */,
 				043660E821FED51900497989 /* SwifterTestsStringExtensions.swift in Sources */,
 				043660E521FED51100497989 /* SwifterTestsHttpRouter.swift in Sources */,
+				047F1EFC226AB16100909B95 /* XCTestManifests.swift in Sources */,
 				043660E621FED51400497989 /* SwifterTestsHttpParser.swift in Sources */,
 				043660EB21FED52000497989 /* MimeTypesTests.swift in Sources */,
 			);
@@ -852,8 +859,6 @@
 			files = (
 				7B74CFA82163C40F001BE07B /* AppDelegate.swift in Sources */,
 				7CDAB8161BE2A1D400C8A977 /* ViewController.swift in Sources */,
-				7B912F4A220507D00062C360 /* XCTestManifests.swift in Sources */,
-				7B912F4C220507DB0062C360 /* LinuxMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -862,7 +867,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA4813E19A2EA8D0030B30D /* main.swift in Sources */,
-				7B912F4D2205083D0062C360 /* LinuxMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,8 +876,10 @@
 			files = (
 				7CCD87701C660B250068099B /* SwifterTestsHttpParser.swift in Sources */,
 				6A0D4512204E9988000A0726 /* MimeTypesTests.swift in Sources */,
+				047F1EFA226AB16000909B95 /* XCTestManifests.swift in Sources */,
 				6AE2FF752048013300302EC4 /* MimeTypes.swift in Sources */,
 				0858E7F81D68BC2600491CD1 /* PingServer.swift in Sources */,
+				047F1EFD226AB17F00909B95 /* LinuxMain.swift in Sources */,
 				7C4785E91C71D15600A9FE73 /* SwifterTestsWebSocketSession.swift in Sources */,
 				043660D421FED36900497989 /* IOSafetyTests.swift in Sources */,
 				7CCD87721C660B250068099B /* SwifterTestsStringExtensions.swift in Sources */,
@@ -1336,7 +1342,7 @@
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1355,7 +1361,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1363,7 +1369,7 @@
 		7CA4813F19A2EA8D0030B30D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1377,14 +1383,14 @@
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		7CA4814019A2EA8D0030B30D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -1393,7 +1399,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

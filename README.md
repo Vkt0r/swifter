@@ -18,9 +18,13 @@ Tiny http server engine written in [Swift](https://developer.apple.com/swift/) p
 
 ### How to start?
 ```swift
+do {
 let server = HttpServer()
 server["/hello"] = { .ok(.htmlBody("You asked for \($0)"))  }
 server.start()
+} catch {
+    print("Server start error: \(error)")
+}
 ```
 
 ### How to load HTML by string?
